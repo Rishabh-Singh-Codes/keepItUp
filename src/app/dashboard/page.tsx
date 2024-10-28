@@ -18,7 +18,7 @@ const Dashboard = async () => {
 
   return (
     <div className="flex flex-col">
-      <Button className="w-1/6 mb-12" asChild>
+      <Button className="w-1/3 md:w-1/6 mb-12" asChild>
         <Link href="/dashboard/addProject">
           <PackagePlus />
           Add project
